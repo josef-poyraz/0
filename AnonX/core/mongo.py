@@ -5,7 +5,6 @@ import config
 
 from ..logging import LOGGER
 
-
 _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
 _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
 mongodb = _mongo_async_.Anon
